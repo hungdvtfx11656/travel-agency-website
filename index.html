@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Du lịch Việt Nam cùng vTravel</title>
+        <meta name="description" content="Trang du lịch hàng đầu Việt Nam tổng hợp các địa danh, điểm đến, kết nối các du khách với sản phẩm du lịch, chia sẻ trải nghiệm du lịch khắp Việt Nam.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="keywords" content="du lịch, travel, Việt Nam, hotel, điểm đến, destination, địa danh, hotel, chuyến đi, trip, phượt, trekking, nghỉ dưỡng, resort, kỳ nghỉ, vacation, du lịch, ">
+
+        <!--Bootstrap5.0.2-->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <!--Fontawesome5.15.3-->
+        <link href="css/fontawesomeall.min.css" rel="stylesheet">
+        <!--CustomCss-->
+        <link href="css/customstyle.css" rel="stylesheet">
+        <!--OwlCarousel-->
+        <link href="css/owl.carousel.css" rel="stylesheet">
+        <link href="css/owl.theme.default.css" rel="stylesheet">
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-M9L6RW22L3"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-M9L6RW22L3');
+        </script>
+    </head>
+    <body>
+        
+        <!--mobile_menu_header-->
+        <div class="mobile_menu_header">
+            <div class="container my-0">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="header_logo">
+                        <a href="index.html"><img class="" src="img/logo/header_logo.png" alt=""></a>
+                    </div>
+                    <div class="menu_icon">
+                        <a href="javascript:void(0);" class="" onclick="myFunction()">
+                            <span><i class="fa fa-bars"></i></span>
+                        </a>
+                    </div>
+                </div>    
+            </div>
+            <div id="mobile_menu_links" class="container">
+                <ul class="">
+                    <li><a href="index.html" title="Du lịch vTravel">Trang chủ</a></li>
+                    <li><a href="tour.html" title="Điểm đến">Điểm đến</a></li>
+                    <li><a href="tour_details.html" title="Địa danh">Địa danh</a></li>
+                    <li><a href="blog.html" title="Blog du lịch">Blog</a></li>
+                    <li><a href="about.html" title="Về vTravel">vTravel</a></li>
+                    <li><a href="contact.html" title="Liên hệ">Liên hệ</a></li>
+                </ul> 
+            </div>
+        </div>
+
+        <!--page_header-->
+        <div class="page_header">
+            <div class="container">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-12 col-lg-2 col-md-4">
+                        <div class="header_logo">
+                            <a href="index.html"><img src="img/logo/header_logo.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-md-8 col-lg-6">
+                        <div class="main_menu d-none d-md-block">
+                            <ul class="mb-0 list-unstyled">
+                                <li><a href="index.html" title="Du lịch vTravel">Trang chủ</a></li>
+                                <li><a href="tour.html" title="Điểm đến">Điểm đến</a></li>
+                                <li><a href="tour_details.html" title="Địa danh">Địa danh</a></li>
+                                <li><a href="blog.html" title="Blog du lịch">Blog</a></li>
+                                <li><a href="about.html" title="Về vTravel">vTravel</a></li>
+                                <li><a href="contact.html" title="Liên hệ">Liên hệ</a></li>
+                            </ul> 
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="header_contact d-flex align-items-center justify-content-end d-none d-lg-flex">
+                            <div class="phone">
+                                <span><i class="fa fa-phone"></i>+84 123456789</span>
+                            </div>
+                            <div class="social">
+                                <ul class="mb-0 list-unstyled">
+                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                </ul>
+                            </div>    
+                        </div>
+                    </div>   
+                </div>
+            </div>
+        </div>
+
+        <!--page_slider-->
+        <div class="page_slider">
+            <div class="owl-carousel">
+                <!--single_slider-->
+                <div class="single_slider d-flex align-items-center justify-content-center slider_bg_1">
+                    <div class="slider_text text-center">
+                        <h3>Nha Trang</h3>
+                        <p>Kỳ nghỉ lý tưởng bậc nhất</p>
+                        <a href="tour_details.html" class="button_3">Khám phá</a>
+                    </div>
+                </div>
+                <div class="single_slider d-flex align-items-center justify-content-center slider_bg_2">
+                    <div class="slider_text text-center">
+                        <h3>Sơn Đoòng</h3>
+                        <p>Vẻ đẹp của sự nguyên sơ</p>
+                        <a href="tour_details.html" class="button_3">Khám phá</a>
+                    </div>
+                </div>
+                <div class="single_slider d-flex align-items-center justify-content-center slider_bg_3">
+                    <div class="slider_text text-center">
+                        <h3>Kẻ Bàng</h3>
+                        <p>Nơi khởi đầu trải nghiệm</p>
+                        <a href="tour_details.html" class="button_3">Khám phá</a>
+                    </div>
+                </div>
+                <!--single_slider-->
+            </div>
+        </div>
+
+        <!--page_select_destination-->
+        <div class="page_select_destination">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-12 col-lg-3">
+                        <h3>Bạn muốn đi đâu?</h3>
+                    </div>
+                    <div class="col-12 col-lg-9">
+                        <div class="form-group destination_form">
+                            <input class="form-control" type="text" placeholder="Chọn điểm đến">
+                            <input class="form-control" type="text" placeholder="Chọn thời gian">
+                            <select class="form-control" name="" id="">
+                                <option data-display="Loại hình du lịch">Loại hình du lịch</option>
+                                <option value="1">Du lịch nghỉ dưỡng</option>
+                                <option value="2">Khám phá thiên nhiên</option>
+                                <option value="2">Hành trình văn hóa</option>
+                            </select>
+                            <button class="button_4">Xem</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>     
+
+        <!--page_content-->
+        <div class="page_content">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-lg-6">
+                        <div class="section_content text-center mb-5">
+                            <h2>Địa danh nổi tiếng</h2>
+                            <p>Ghi lại các danh lam thắng cảnh nằm rải đều khắp các tỉnh thành Việt Nam, cùng với những thông tin và cập nhật mới nhất giúp bạn dễ dàng lên kế hoạch cho chuyến du lịch của mình.</p>
+                        </div>   
+                    </div>
+                </div>
+                <div class="row">
+                    <!--CardGroup-->
+                    <div class="col-12 col-lg-4 col-md-6">
+                        <div class="destination_card">
+                            <div class="thumb"><img src="img/destination/hanoi.jpg" alt="Hà Nội"></div>
+                            <div class="card_content">
+                                <p class="d-flex align-items-center">
+                                    Hà Nội 
+                                    <a href="#">07 Điểm đến</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 col-md-6">
+                        <div class="destination_card">
+                            <div class="thumb"><img src="img/destination/hochiminh.jpg" alt="Hồ Chí Minh"></div>
+                            <div class="card_content">
+                                <p class="d-flex align-items-center">
+                                    Hồ Chí Minh 
+                                    <a href="#">07 Điểm đến</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 col-md-6">
+                        <div class="destination_card">
+                            <div class="thumb"><img src="img/destination/quangbinh.jpg" alt="Quảng Bình"></div>
+                            <div class="card_content">
+                                <p class="d-flex align-items-center">
+                                    Quảng Bình 
+                                    <a href="#">07 Điểm đến</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="destination_card">
+                            <div class="thumb"><img src="img/destination/thuathienhue.jpg" alt="Thừa Thiên - Huế"></div>
+                            <div class="card_content">
+                                <p class="d-flex align-items-center">
+                                    Huế 
+                                    <a href="#">07 Điểm đến</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 col-md-6">
+                        <div class="destination_card">
+                            <div class="thumb"><img src="img/destination/danang.jpg" alt="Đà Nẵng"></div>
+                            <div class="card_content">
+                                <p class="d-flex align-items-center">
+                                    Đà Nẵng 
+                                    <a href="#">07 Điểm đến</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 col-md-6">
+                        <div class="destination_card">
+                            <div class="thumb"><img src="img/destination/ninhthuan.jpg" alt="Ninh Thuận"></div>
+                            <div class="card_content">
+                                <p class="d-flex align-items-center">
+                                    Ninh Thuận 
+                                    <a href="#">07 Điểm đến</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--CardGroup-->
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="text-center mt-3">
+                            <a href="#" class="button_4">Xem thêm</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!--page_subscription-->
+        <div class="page_subscription">
+            <div class="container">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-12">
+                        <div class="row align-items-center">
+                            <div class="col-12 col-md-12 col-lg-5">
+                                <div class="subscription_text">
+                                    <h3>Đăng ký nhận tin</h3>
+                                    <p>Nhận thông báo về những địa điểm mới khám phá và khuyến mãi cho chuyến đi tiếp theo</p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-12 col-lg-7">
+                                <div class="subscription_form">
+                                    <div class="row">
+                                        <div class="col-12 col-md-8">
+                                            <div class="input_field"><input class="form-control" type="text" placeholder="email@example.com"></div>
+                                        </div>
+                                        <div class="col-12 col-md-4">
+                                            <div class=""><button class="button_4 w-100">Đăng ký</button></div>
+                                        </div>
+                                    </div>
+                                </div>            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--page_tours-->
+        <div class="page_content">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-lg-6">
+                        <div class="section_content text-center mb-5">
+                            <h2>Điểm đến lựa chọn</h2>
+                            <p>Tổng hợp những điểm đến du lịch đang được lựa chọn nhiều nhất, bao gồm Du lịch nghỉ dưỡng, Khám phá thiên nhiên, Hành trình văn hóa... mang đến cho bạn kỳ nghỉ đáng nhớ.</p>
+                        </div>      
+                    </div>
+                </div>
+                <div class="row">
+                    <!--tour_card-->
+                    <div class="col-12 col-lg-4 col-md-6">
+                        <div class="tour_card">
+                            <div class="thumb">
+                                <img src="img/place/hangrai.jpg" alt="Ninh Chữ">
+                                <p><i class="fa fa-dollar-sign"></i>500</p>
+                            </div>
+                            <div class="card_content">
+                                <a href="#"><h3>Ninh Chữ</h3></a>
+                                <p>Ninh Thuận</p>
+                                <div class="rating d-flex justify-content-between">
+                                    <span class="d-flex justify-content-center align-items-center">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <span>&nbsp</span><span class="rating_count">20 Đánh giá</span>
+                                    </span>
+                                    <div class="days">
+                                        <i class="fa fa-clock-o"></i>
+                                        <span>&nbsp</span><span>3 Ngày</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 col-md-6">
+                        <div class="tour_card">
+                            <div class="thumb">
+                                <img src="img/place/dalat.jpg" alt="Đà Lạt">
+                                <p><i class="fa fa-dollar-sign"></i>500</p>
+                            </div>
+                            <div class="card_content">
+                                <a href="#"><h3>Đà Lạt</h3></a>
+                                <p>Lâm Đồng</p>
+                                <div class="rating d-flex justify-content-between">
+                                    <span class="d-flex justify-content-center align-items-center">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <span>&nbsp</span><span class="rating_count">20 Đánh giá</span>
+                                    </span>
+                                    <div class="days">
+                                        <i class="fa fa-clock-o"></i>
+                                        <span>&nbsp</span><span>3 Ngày</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 col-md-6">
+                        <div class="tour_card">
+                            <div class="thumb">
+                                <img src="img/place/phuquoc.jpg" alt="Phú Quốc">
+                                <p><i class="fa fa-dollar-sign"></i>500</p>
+                            </div>
+                            <div class="card_content">
+                                <a href="#"><h3>Phú Quốc</h3></a>
+                                <p>Kiên Giang</p>
+                                <div class="rating d-flex justify-content-between">
+                                    <span class="d-flex justify-content-center align-items-center">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <span>&nbsp</span><span class="rating_count">20 Đánh giá</span>
+                                    </span>
+                                    <div class="days">
+                                        <i class="fa fa-clock-o"></i>
+                                        <span>&nbsp</span><span>3 Ngày</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 col-md-6">
+                        <div class="tour_card">
+                            <div class="thumb">
+                                <img src="img/place/catba.jpg" alt="Cát Bà">
+                                <p><i class="fa fa-dollar-sign"></i>500</p>
+                            </div>
+                            <div class="card_content">
+                                <a href="#"><h3>Cát Bà</h3></a>
+                                <p>Hải Phòng</p>
+                                <div class="rating d-flex justify-content-between">
+                                    <span class="d-flex justify-content-center align-items-center">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <span>&nbsp</span><span class="rating_count">20 Đánh giá</span>
+                                    </span>
+                                    <div class="days">
+                                        <i class="fa fa-clock-o"></i>
+                                        <span>&nbsp</span><span>3 Ngày</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 col-md-6">
+                        <div class="tour_card">
+                            <div class="thumb">
+                                <img src="img/place/sondoong.jpg" alt="Sơn Đoòng">
+                                <p><i class="fa fa-dollar-sign"></i>500</p>
+                            </div>
+                            <div class="card_content">
+                                <a href="#"><h3>Sơn Đoòng</h3></a>
+                                <p>Quảng Bình</p>
+                                <div class="rating d-flex justify-content-between">
+                                    <span class="d-flex justify-content-center align-items-center">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <span>&nbsp</span><span class="rating_count">20 Đánh giá</span>
+                                    </span>
+                                    <div class="days">
+                                        <i class="fa fa-clock-o"></i>
+                                        <span>&nbsp</span><span>3 Ngày</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 col-md-6">
+                        <div class="tour_card">
+                            <div class="thumb">
+                                <img src="img/place/mucangchai.jpg" alt="Mù Cang Chải">
+                                <p><i class="fa fa-dollar-sign"></i>500</p>
+                            </div>
+                            <div class="card_content">
+                                <a href="#"><h3>Mù Cang Chải</h3></a>
+                                <p>Yên Bái</p>
+                                <div class="rating d-flex justify-content-between">
+                                    <span class="d-flex justify-content-center align-items-center">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <span>&nbsp</span><span class="rating_count">20 Đánh giá</span>
+                                    </span>
+                                    <div class="days">
+                                        <i class="fa fa-clock-o"></i>
+                                        <span>&nbsp</span><span>3 Ngày</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--tour_card-->
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="text-center mt-3">
+                            <a href="#" class="button_4">Xem thêm</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!--page_features-->
+        <div class="page_features">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-4 col-lg-4">
+                        <div class="feature_card">
+                            <div><img src="img/svg_icon/1.svg" alt=""></div>
+                            <h3>Phương tiện di chuyển</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore pariatur error exercitationem ipsum quis iusto! Saepe, corrupti, libero quisquam ex repellendus impedit cumque provident et amet, rem consequuntur assumenda aperiam!</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-4">
+                        <div class="feature_card">
+                            <div><img src="img/svg_icon/2.svg" alt=""></div>
+                            <h3>Các điểm dừng chân</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis excepturi facilis ipsa, consequuntur sit soluta et magnam, ea saepe molestiae dolor doloremque deserunt! Praesentium qui numquam, laborum ratione blanditiis voluptate.</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-4">
+                        <div class="feature_card">
+                            <div><img src="img/svg_icon/3.svg" alt=""></div>
+                            <h3>Tiêu chẩn quốc tế</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor aliquid culpa eius impedit ad et earum placeat dolorum eligendi dolore, sapiente veritatis consequatur animi ducimus nemo quia adipisci. Consequuntur, ad.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--page_feedbacks-->
+        <div class="page_feedbacks">
+            <div class="container">
+                <div class="owl-carousel">
+                    <!--single_feedback-->
+                    <div class="single_carousel">
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-md-10 col-lg-6">
+                                <div class="single_feedback">
+                                    <div class="thumb"><img src="img/feedback/author1.jpg" alt=""></div>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi dicta quisquam, iure error culpa voluptatum obcaecati ratione corrupti in, animi, voluptates accusantium atque ea dolor distinctio rem harum odit nesciunt.</p>
+                                    <h3 class="author">Du khách Mỹ</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="single_carousel">
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-md-10 col-lg-6">
+                                <div class="single_feedback">
+                                    <div class="thumb"><img src="img/feedback/author2.jpg" alt=""></div>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi dicta quisquam, iure error culpa voluptatum obcaecati ratione corrupti in, animi, voluptates accusantium atque ea dolor distinctio rem harum odit nesciunt.</p>
+                                    <h3 class="author">Du khách Mỹ</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="single_carousel">
+                        <div class="row justify-content-center">
+                            <div class="col-12 col-md-10 col-lg-6">
+                                <div class="single_feedback">
+                                    <div class="thumb"><img src="img/feedback/author3.jpg" alt=""></div>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi dicta quisquam, iure error culpa voluptatum obcaecati ratione corrupti in, animi, voluptates accusantium atque ea dolor distinctio rem harum odit nesciunt.</p>
+                                    <h3 class="author">Du khách Mỹ</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--single_feedback-->
+                </div>
+            </div>
+        </div>
+
+        <!--page_footer-->
+        <div class="page_footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="footer_widget">
+                            <div class="footer_logo"><img src="img/logo/footer_logo.png" alt=""></div>
+                            <div class="footer_address">
+                                <p>
+                                Tầng 5, 123Biz Nguyễn Huệ <br>
+                                Phường Bến Nghé, Quận 1 <br>
+                                Thành phố Hồ Chí Minh <br>
+                                +84 123456789 <br>
+                                hotro@vtravel.vn
+                                </p>
+                            </div>
+                            <div class="social_wrap">
+                                <ul class="">
+                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                                </ul>
+                            </div>
+    
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-2">
+                        <div class="footer_widget">
+                            <h3 class="footer_title">vTravel</h3>
+                            <ul class="links">
+                                <li><a href="tour.html">Điểm đến</a></li>
+                                <li><a href="tour_details.html">Địa danh</a></li>
+                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="about.html">vTravel</a></li>
+                                <li><a href="contact.html">Liên hệ</a></li>
+                            </ul>   
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="footer_widget">
+                            <h3 class="footer_title">Khám phá</h3>
+                            <ul class="links double_links">
+                                <li><a href="tour.html">Hà Nội</a></li>
+                                <li><a href="tour.html">Hồ Chí Minh</a></li>
+                                <li><a href="tour.html">Đà Nẵng</a></li>
+                                <li><a href="tour.html">Huế</a></li>
+                                <li><a href="tour.html">Nha Trang</a></li>
+                                <li><a href="tour.html">Phú Quốc</a></li>
+                                <li><a href="tour.html">Ninh Bình</a></li>
+                                <li><a href="tour.html">Sapa</a></li>
+                            </ul>    
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="footer_widget">
+                            <h3 class="footer_title">Gallery</h3>
+                            <div class="instagram_feed">
+                                <div class="single_insta"><a href="#"><img src="img/gallery/x1.jpg" alt=""></a></div>
+                                <div class="single_insta"><a href="#"><img src="img/gallery/x2.jpg" alt=""></a></div>
+                                <div class="single_insta"><a href="#"><img src="img/gallery/x3.jpg" alt=""></a></div>
+                                <div class="single_insta"><a href="#"><img src="img/gallery/x4.jpg" alt=""></a></div>
+                                <div class="single_insta"><a href="#"><img src="img/gallery/x5.jpg" alt=""></a></div>
+                                <div class="single_insta"><a href="#"><img src="img/gallery/x6.jpg" alt=""></a></div>
+                            </div>    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+        <!--FontAwesome5.15.3-->
+        <script src="https://use.fontawesome.com/1f3ef70d1b.js"></script>
+        <!--Jquery-->
+        <script src="js/jquery.js"></script>
+        <!--OwlCarousel-->
+        <script src="js/owl.carousel.min.js"></script>
+        <!--Active-->
+        <script>
+            $(document).ready(function(){
+                $(".owl-carousel").owlCarousel({
+                    items: 1,
+                    loop: true,
+                    dots: false,
+                    autoplay: true,
+                    autoplaySpeed: 800,
+                });
+            });
+            function myFunction() {
+                var x = document.getElementById("mobile_menu_links");
+                if (x.style.display === "block") {
+                x.style.display = "none";
+                } else {
+                x.style.display = "block";
+                }
+            }
+        </script>
+    </body>
+</html>
